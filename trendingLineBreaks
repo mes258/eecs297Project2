@@ -1,0 +1,241 @@
+{"module_html":"\u003cdiv class=\"flex-module trends-container context-trends-container\"\u003e
+  \u003cdiv class=\"flex-module-header\"\u003e
+    
+    \u003ch3\u003e\u003cspan class=\"trend-location js-trend-location\"\u003eWorldwide trends\u003c\/span\u003e\u003c\/h3\u003e
+  \u003c\/div\u003e
+  \u003cdiv class=\"flex-module-inner\"\u003e
+    \u003cul class=\"trend-items js-trends\"\u003e
+        \u003cli class=\"trend-item js-trend-item  context-trend-item\"
+    data-trend-name=\"#JeffreeStarApproved\"
+    data-trends-id=\"3222292099751493841\"
+    data-trend-token=\":location_request:hashtag_trend:taxi_country_source:tweet_count_10000_100000_metadescription:\"
+    
+  \u003e
+
+    \u003ca class=\"pretty-link js-nav js-tooltip u-linkComplex \"
+        href=\"\/hashtag\/JeffreeStarApproved?src=tren\"
+        data-query-source=\"trend_click\"
+        
+      \u003e
+      \u003cspan class=\"u-linkComplex-target trend-name\" dir=\"ltr\"\u003e#JeffreeStarApproved\u003c\/span\u003e
+
+      
+      \u003cdiv class=\"js-nav trend-item-context js-ellipsis\"\u003e\u003c\/div\u003e
+        \u003cdiv class=\"js-nav trend-item-stats js-ellipsis\"\u003e
+          97.1K Tweets
+        \u003c\/div\u003e
+    \u003c\/a\u003e
+
+\u003c\/li\u003e
+
+        \u003cli class=\"trend-item js-trend-item  context-trend-item\"
+    data-trend-name=\"#QuaratineLife\"
+    data-trends-id=\"3222292099751493841\"
+    data-trend-token=\":location_request:hashtag_trend:taxi_country_source:tweet_count_10000_100000_metadescription:\"
+    
+  \u003e
+
+    \u003ca class=\"pretty-link js-nav js-tooltip u-linkComplex \"
+        href=\"\/hashtag\/QuaratineLife?src=tren\"
+        data-query-source=\"trend_click\"
+        
+      \u003e
+      \u003cspan class=\"u-linkComplex-target trend-name\" dir=\"ltr\"\u003e#QuaratineLife\u003c\/span\u003e
+
+      
+      \u003cdiv class=\"js-nav trend-item-context js-ellipsis\"\u003e\u003c\/div\u003e
+        \u003cdiv class=\"js-nav trend-item-stats js-ellipsis\"\u003e
+          32.8K Tweets
+        \u003c\/div\u003e
+    \u003c\/a\u003e
+
+\u003c\/li\u003e
+
+        \u003cli class=\"trend-item js-trend-item  context-trend-item\"
+    data-trend-name=\"#LoveThyNeighbor\"
+    data-trends-id=\"3222292099751493841\"
+    data-trend-token=\":location_request:hashtag_trend:taxi_country_source:tweet_count_10000_100000_metadescription:\"
+    
+  \u003e
+
+    \u003ca class=\"pretty-link js-nav js-tooltip u-linkComplex \"
+        href=\"\/hashtag\/LoveThyNeighbor?src=tren\"
+        data-query-source=\"trend_click\"
+        
+      \u003e
+      \u003cspan class=\"u-linkComplex-target trend-name\" dir=\"ltr\"\u003e#LoveThyNeighbor\u003c\/span\u003e
+
+      
+      \u003cdiv class=\"js-nav trend-item-context js-ellipsis\"\u003e\u003c\/div\u003e
+        \u003cdiv class=\"js-nav trend-item-stats js-ellipsis\"\u003e
+          47.6K Tweets
+        \u003c\/div\u003e
+    \u003c\/a\u003e
+
+\u003c\/li\u003e
+
+        \u003cli class=\"trend-item js-trend-item  context-trend-item\"
+    data-trend-name=\"#StayAtHome\"
+    data-trends-id=\"3222292099751493841\"
+    data-trend-token=\":location_request:hashtag_trend:taxi_country_source:tweet_count_100000_1000000_metadescription:\"
+    
+  \u003e
+
+    \u003ca class=\"pretty-link js-nav js-tooltip u-linkComplex \"
+        href=\"\/hashtag\/StayAtHome?src=tren\"
+        data-query-source=\"trend_click\"
+        
+      \u003e
+      \u003cspan class=\"u-linkComplex-target trend-name\" dir=\"ltr\"\u003e#StayAtHome\u003c\/span\u003e
+
+      
+      \u003cdiv class=\"js-nav trend-item-context js-ellipsis\"\u003e\u003c\/div\u003e
+        \u003cdiv class=\"js-nav trend-item-stats js-ellipsis\"\u003e
+          388K Tweets
+        \u003c\/div\u003e
+    \u003c\/a\u003e
+
+\u003c\/li\u003e
+
+        \u003cli class=\"trend-item js-trend-item  context-trend-item\"
+    data-trend-name=\"#QuarantineActivities\"
+    data-trends-id=\"3222292099751493841\"
+    data-trend-token=\":location_request:hashtag_trend:taxi_country_source:tweet_count_1000_10000_metadescription:\"
+    
+  \u003e
+
+    \u003ca class=\"pretty-link js-nav js-tooltip u-linkComplex \"
+        href=\"\/hashtag\/QuarantineActivities?src=tren\"
+        data-query-source=\"trend_click\"
+        
+      \u003e
+      \u003cspan class=\"u-linkComplex-target trend-name\" dir=\"ltr\"\u003e#QuarantineActivities\u003c\/span\u003e
+
+      
+      \u003cdiv class=\"js-nav trend-item-context js-ellipsis\"\u003e\u003c\/div\u003e
+        \u003cdiv class=\"js-nav trend-item-stats js-ellipsis\"\u003e
+          7,547 Tweets
+        \u003c\/div\u003e
+    \u003c\/a\u003e
+
+\u003c\/li\u003e
+
+        \u003cli class=\"trend-item js-trend-item  context-trend-item\"
+    data-trend-name=\"Jim Justice\"
+    data-trends-id=\"3222292099751493841\"
+    data-trend-token=\":location_request:entity_trend:taxi_country_source:tweet_count_1000_10000_metadescription:\"
+    
+  \u003e
+
+    \u003ca class=\"pretty-link js-nav js-tooltip u-linkComplex \"
+        href=\"\/search?q=%22Jim%20Justice%22&amp;src=tren\"
+        data-query-source=\"trend_click\"
+        
+      \u003e
+      \u003cspan class=\"u-linkComplex-target trend-name\" dir=\"ltr\"\u003eJim Justice\u003c\/span\u003e
+
+      
+      \u003cdiv class=\"js-nav trend-item-context js-ellipsis\"\u003e\u003c\/div\u003e
+        \u003cdiv class=\"js-nav trend-item-stats js-ellipsis\"\u003e
+          1,435 Tweets
+        \u003c\/div\u003e
+    \u003c\/a\u003e
+
+\u003c\/li\u003e
+
+        \u003cli class=\"trend-item js-trend-item  context-trend-item\"
+    data-trend-name=\"Tommy Torres\"
+    data-trends-id=\"3222292099751493841\"
+    data-trend-token=\":location_request:entity_trend:taxi_country_source:tweet_count_1000_10000_metadescription:\"
+    
+  \u003e
+
+    \u003ca class=\"pretty-link js-nav js-tooltip u-linkComplex \"
+        href=\"\/search?q=%22Tommy%20Torres%22&amp;src=tren\"
+        data-query-source=\"trend_click\"
+        
+      \u003e
+      \u003cspan class=\"u-linkComplex-target trend-name\" dir=\"ltr\"\u003eTommy Torres\u003c\/span\u003e
+
+      
+      \u003cdiv class=\"js-nav trend-item-context js-ellipsis\"\u003e\u003c\/div\u003e
+        \u003cdiv class=\"js-nav trend-item-stats js-ellipsis\"\u003e
+          7,202 Tweets
+        \u003c\/div\u003e
+    \u003c\/a\u003e
+
+\u003c\/li\u003e
+
+        \u003cli class=\"trend-item js-trend-item  context-trend-item\"
+    data-trend-name=\"Laettner\"
+    data-trends-id=\"3222292099751493841\"
+    data-trend-token=\":location_request:entity_trend:taxi_country_source:tweet_count_1000_10000_metadescription:\"
+    
+  \u003e
+
+    \u003ca class=\"pretty-link js-nav js-tooltip u-linkComplex \"
+        href=\"\/search?q=Laettner&amp;src=tren\"
+        data-query-source=\"trend_click\"
+        
+      \u003e
+      \u003cspan class=\"u-linkComplex-target trend-name\" dir=\"ltr\"\u003eLaettner\u003c\/span\u003e
+
+      
+      \u003cdiv class=\"js-nav trend-item-context js-ellipsis\"\u003e\u003c\/div\u003e
+        \u003cdiv class=\"js-nav trend-item-stats js-ellipsis\"\u003e
+          3,492 Tweets
+        \u003c\/div\u003e
+    \u003c\/a\u003e
+
+\u003c\/li\u003e
+
+        \u003cli class=\"trend-item js-trend-item  context-trend-item\"
+    data-trend-name=\"Steve Martin\"
+    data-trends-id=\"3222292099751493841\"
+    data-trend-token=\":location_request:entity_trend:taxi_country_source:tweet_count_10000_100000_metadescription:\"
+    
+  \u003e
+
+    \u003ca class=\"pretty-link js-nav js-tooltip u-linkComplex \"
+        href=\"\/search?q=%22Steve%20Martin%22&amp;src=tren\"
+        data-query-source=\"trend_click\"
+        
+      \u003e
+      \u003cspan class=\"u-linkComplex-target trend-name\" dir=\"ltr\"\u003eSteve Martin\u003c\/span\u003e
+
+      
+      \u003cdiv class=\"js-nav trend-item-context js-ellipsis\"\u003e\u003c\/div\u003e
+        \u003cdiv class=\"js-nav trend-item-stats js-ellipsis\"\u003e
+          12.7K Tweets
+        \u003c\/div\u003e
+    \u003c\/a\u003e
+
+\u003c\/li\u003e
+
+        \u003cli class=\"trend-item js-trend-item  context-trend-item\"
+    data-trend-name=\"Sorcerer Supreme\"
+    data-trends-id=\"3222292099751493841\"
+    data-trend-token=\":location_request:entity_trend:taxi_country_source:\"
+    
+  \u003e
+
+    \u003ca class=\"pretty-link js-nav js-tooltip u-linkComplex \"
+        href=\"\/search?q=%22Sorcerer%20Supreme%22&amp;src=tren\"
+        data-query-source=\"trend_click\"
+        
+      \u003e
+      \u003cspan class=\"u-linkComplex-target trend-name\" dir=\"ltr\"\u003eSorcerer Supreme\u003c\/span\u003e
+
+      
+      \u003cdiv class=\"js-nav trend-item-context js-ellipsis\"\u003e\u003c\/div\u003e
+        \u003cdiv class=\"js-nav trend-item-stats js-ellipsis\"\u003e
+          
+        \u003c\/div\u003e
+    \u003c\/a\u003e
+
+\u003c\/li\u003e
+
+    \u003c\/ul\u003e
+  \u003c\/div\u003e
+\u003c\/div\u003e
+","personalized":false,"woeid":1}
