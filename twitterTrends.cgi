@@ -19,7 +19,7 @@ BEGIN{
 
   if(1) system("awk 'ORS=NR%2?FS:RS' rawTrendinga > 'finalTrending'");
   #Add the timestamp
-  if(1) system("date '+%s' >> 'masterTrending'");
+  if(1) system("date '+%s' >> '../../public_html/cgi-bin/masterTrending'");
 
     while(getline < "finalTrending" > 0){
       #get rid of extra characters so the output is: topic_name 12.5k
@@ -30,6 +30,6 @@ BEGIN{
       gsub("_$", "", $0);
       gsub("_{11}", " ", $0);
       gsub("_{4}", "", $0);
-      print $0 >> "masterTrending"
+      print $0 >> "../../public_html/cgi-bin/masterTrending"
     }
 }
