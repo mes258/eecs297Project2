@@ -1,5 +1,6 @@
 #! /usr/bin/awk -f
 BEGIN{
+  #printf "%s" systime() > "cleanTrending"
   if(1) system("wget -O rawTrending 'https://twitter.com/i/trends'");
   #if(1) system("sed -i 's/\\\n /\\n/g' rawTrending");
   while(getline < "rawTrending" > 0){
@@ -21,6 +22,13 @@ BEGIN{
       #need to do the opposite of this: 
       gsub(/data-trend-name=/, "", $0);
       gsub(/\\\"/, "", $0);
+      gsub(/Tweets/, "", $0);
+      gsub(/ /, "_", $0);
+      gsub("_$", "", $0);
+      gsub("_{11}", " ", $0);
+      gsub("_{4}", "", $0);
+      #system("awk print(" $0 "\" \" systime() > \"cleanTrending\"");
+      #withTime = $0 " " systime()
       print $0 > "cleanTrending"
       #print substr($0, 23) > "cleanTrending"
       #system("cut -c -22 'finalTrending' > 'cleanTrending'");
