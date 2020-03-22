@@ -1,6 +1,6 @@
 #! /usr/bin/awk -f
+# date
 BEGIN{
-  #printf "%s" systime() > "cleanTrending"
   if(1) system("wget -O rawTrending 'https://twitter.com/i/trends'");
   #if(1) system("sed -i 's/\\\n /\\n/g' rawTrending");
   while(getline < "rawTrending" > 0){
@@ -18,8 +18,11 @@ BEGIN{
   }
 
   if(1) system("awk 'ORS=NR%2?FS:RS' rawTrendinga > 'finalTrending'");
+  #Add the timestamp
+  if(1) system("date '+%s' >> 'masterTrending'");
+
     while(getline < "finalTrending" > 0){
-      #need to do the opposite of this: 
+      #get rid of extra characters so the output is: topic_name 12.5k
       gsub(/data-trend-name=/, "", $0);
       gsub(/\\\"/, "", $0);
       gsub(/Tweets/, "", $0);
@@ -27,10 +30,6 @@ BEGIN{
       gsub("_$", "", $0);
       gsub("_{11}", " ", $0);
       gsub("_{4}", "", $0);
-      #system("awk print(" $0 "\" \" systime() > \"cleanTrending\"");
-      #withTime = $0 " " systime()
-      print $0 > "cleanTrending"
-      #print substr($0, 23) > "cleanTrending"
-      #system("cut -c -22 'finalTrending' > 'cleanTrending'");
+      print $0 >> "masterTrending"
     }
 }
