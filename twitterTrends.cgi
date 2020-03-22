@@ -19,6 +19,10 @@ BEGIN{
   if(1) system("awk 'ORS=NR%2?FS:RS' rawTrendinga > 'finalTrending'");
     while(getline < "finalTrending" > 0){
       #need to do the opposite of this: 
-      system("cut -c -22 'finalTrending' > 'cleanTrending'");
+      gsub(/data-trend-name=/, "", $0);
+      gsub(/\\\"/, "", $0);
+      print $0 > "cleanTrending"
+      #print substr($0, 23) > "cleanTrending"
+      #system("cut -c -22 'finalTrending' > 'cleanTrending'");
     }
 }
