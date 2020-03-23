@@ -1,0 +1,47 @@
+--2020-03-23 17:18:18--  https://twitter.com/i/trends
+Resolving twitter.com (twitter.com)... 104.244.42.1
+Connecting to twitter.com (twitter.com)|104.244.42.1|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9126 (8.9K) [application/json]
+Saving to: 'rawTrending'
+
+     0K ........                                              100% 61.3M=0s
+
+2020-03-23 17:18:19 (61.3 MB/s) - 'rawTrending' saved [9126/9126]
+
+exit_code: 27
+--2020-03-23 17:20:19--  https://twitter.com/i/trends
+Resolving twitter.com (twitter.com)... 104.244.42.1
+Connecting to twitter.com (twitter.com)|104.244.42.1|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9116 (8.9K) [application/json]
+Saving to: 'rawTrending'
+
+     0K ........                                              100% 60.4M=0s
+
+2020-03-23 17:20:19 (60.4 MB/s) - 'rawTrending' saved [9116/9116]
+
+exit_code: 27
+--2020-03-23 17:22:19--  https://twitter.com/i/trends
+Resolving twitter.com (twitter.com)... 104.244.42.1
+Connecting to twitter.com (twitter.com)|104.244.42.1|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9112 (8.9K) [application/json]
+Saving to: 'rawTrending'
+
+     0K ........                                              100% 52.0M=0s
+
+2020-03-23 17:22:19 (52.0 MB/s) - 'rawTrending' saved [9112/9112]
+
+exit_code: 27
+--2020-03-23 17:24:19--  https://twitter.com/i/trends
+Resolving twitter.com (twitter.com)... 104.244.42.193
+Connecting to twitter.com (twitter.com)|104.244.42.193|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9115 (8.9K) [application/json]
+Saving to: 'rawTrending'
+
+     0K ........                                              100% 60.1M=0s
+
+2020-03-23 17:24:20 (60.1 MB/s) - 'rawTrending' saved [9115/9115]
+

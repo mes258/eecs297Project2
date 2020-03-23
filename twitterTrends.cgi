@@ -6,14 +6,27 @@ BEGIN{
   while(getline < "rawTrending" > 0){
     gsub(/\\n/, "ABCDEFG",$0)
     gsub("ABCDEFG", "\n", $0)
+    #gsub("u003c", "", $0)
     print $0 > "trendingLineBreaks"
   }
+  if(1) system("sed -i '/u003c/d' trendingLineBreaks");
+  
+  noTweetCount = 0;
   while(getline < "trendingLineBreaks" > 0){
+    #print $0;
     if($0 ~ "data-trend-name"){
+      if(noTweetCount == 1){
+   	print "          999 Tweets" > "rawTrendinga"
+	noTweetCount = 0;
+      }
+      noTweetCount = 1;
       print $0 > "rawTrendinga"
     }
-    if($0 ~ "Tweets"){
-      print $0 > "rawTrendinga"
+
+    else if($0 ~ "Tweets"){
+     # print $0;
+      noTweetCount = 0;
+      print $0  > "rawTrendinga"
     }
   }
 
