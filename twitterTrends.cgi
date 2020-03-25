@@ -33,7 +33,7 @@ BEGIN{
   if(1) system("awk 'ORS=NR%2?FS:RS' rawTrendinga > 'finalTrending'");
   #Add the timestamp
   if(1) system("date '+%s' >> '../../public_html/cgi-bin/masterTrending'");
-
+  if(1) system("date '+%s' > 'mostRecentTime'");
     while(getline < "finalTrending" > 0){
       #get rid of extra characters so the output is: topic_name 12.5k
       gsub(/data-trend-name=/, "", $0);
@@ -45,4 +45,23 @@ BEGIN{
       gsub("_{4}", "", $0);
       print $0 >> "../../public_html/cgi-bin/masterTrending"
     }
+
+  #isolate the last 24 hours of data:
+  currentTime = 0
+  #The most recent time is stored in "mostRecentTime" 
+  while(getline < "mostRecentTime" > 0){
+    currentTime = $0
+  }
+  recentData = 0
+  while(getline < "masterTrending" > 0){
+    if(recentData == 1){
+      print $0 > "../../public_html/cgi-bin/recentData"
+    }else if($0 ~ /^158/){
+      #86400 seconds in a day. change to be how old the oldest data can be
+      if(currentTime - $0 <= 86400){
+        recentData = 1
+        print $0 > "../../public_html/cgi-bin/recentData"
+      }
+    }
+  }
 }

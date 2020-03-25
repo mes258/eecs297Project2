@@ -3,7 +3,7 @@
 BEGIN {
   do {
     system("./twitterTrends.cgi");
-    exit_code = system("sleep 120 && exit 27")
+    exit_code = system("sleep 1200 && exit 27")
     print "exit_code: " exit_code
   } while (exit_code != 0.0078125 && exit_code != 0)
 }
